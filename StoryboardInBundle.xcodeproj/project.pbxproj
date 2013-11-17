@@ -21,6 +21,7 @@
 		BA9EA0AF183958B8007A4AC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9EA091183958B8007A4AC7 /* UIKit.framework */; };
 		BA9EA0B7183958B8007A4AC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9EA0B5183958B8007A4AC7 /* InfoPlist.strings */; };
 		BA9EA0B9183958B8007A4AC7 /* StoryboardInBundleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EA0B8183958B8007A4AC7 /* StoryboardInBundleTests.m */; };
+		BA9EA0C718395ACC007A4AC7 /* bundlefilename.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA9EA0C618395ACC007A4AC7 /* bundlefilename.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		BA9EA0B4183958B8007A4AC7 /* StoryboardInBundleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardInBundleTests-Info.plist"; sourceTree = "<group>"; };
 		BA9EA0B6183958B8007A4AC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA9EA0B8183958B8007A4AC7 /* StoryboardInBundleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardInBundleTests.m; sourceTree = "<group>"; };
+		BA9EA0C618395ACC007A4AC7 /* bundlefilename.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = bundlefilename.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +114,7 @@
 		BA9EA093183958B8007A4AC7 /* StoryboardInBundle */ = {
 			isa = PBXGroup;
 			children = (
-				BA9EA09C183958B8007A4AC7 /* PGAppDelegate.h */,
-				BA9EA09D183958B8007A4AC7 /* PGAppDelegate.m */,
+				BA9EA0C618395ACC007A4AC7 /* bundlefilename.bundle */,
 				BA9EA09F183958B8007A4AC7 /* Main.storyboard */,
 				BA9EA0A2183958B8007A4AC7 /* PGViewController.h */,
 				BA9EA0A3183958B8007A4AC7 /* PGViewController.m */,
@@ -126,6 +127,8 @@
 		BA9EA094183958B8007A4AC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA9EA09C183958B8007A4AC7 /* PGAppDelegate.h */,
+				BA9EA09D183958B8007A4AC7 /* PGAppDelegate.m */,
 				BA9EA095183958B8007A4AC7 /* StoryboardInBundle-Info.plist */,
 				BA9EA096183958B8007A4AC7 /* InfoPlist.strings */,
 				BA9EA099183958B8007A4AC7 /* main.m */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9EA0A6183958B8007A4AC7 /* Images.xcassets in Resources */,
+				BA9EA0C718395ACC007A4AC7 /* bundlefilename.bundle in Resources */,
 				BA9EA098183958B8007A4AC7 /* InfoPlist.strings in Resources */,
 				BA9EA0A1183958B8007A4AC7 /* Main.storyboard in Resources */,
 			);
@@ -461,6 +465,7 @@
 				BA9EA0BE183958B8007A4AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA9EA0BF183958B8007A4AC7 /* Build configuration list for PBXNativeTarget "StoryboardInBundleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				BA9EA0C1183958B8007A4AC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
