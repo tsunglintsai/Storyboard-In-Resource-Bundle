@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA82388B183AC91C0068C804 /* bundlefilename.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA82388A183AC91C0068C804 /* bundlefilename.bundle */; };
 		BA9EA08E183958B8007A4AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9EA08D183958B8007A4AC7 /* Foundation.framework */; };
 		BA9EA090183958B8007A4AC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9EA08F183958B8007A4AC7 /* CoreGraphics.framework */; };
 		BA9EA092183958B8007A4AC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9EA091183958B8007A4AC7 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		BA9EA0AF183958B8007A4AC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9EA091183958B8007A4AC7 /* UIKit.framework */; };
 		BA9EA0B7183958B8007A4AC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9EA0B5183958B8007A4AC7 /* InfoPlist.strings */; };
 		BA9EA0B9183958B8007A4AC7 /* StoryboardInBundleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EA0B8183958B8007A4AC7 /* StoryboardInBundleTests.m */; };
-		BA9EA0C718395ACC007A4AC7 /* bundlefilename.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA9EA0C618395ACC007A4AC7 /* bundlefilename.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA82388A183AC91C0068C804 /* bundlefilename.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = bundlefilename.bundle; sourceTree = "<group>"; };
 		BA9EA08A183958B8007A4AC7 /* StoryboardInBundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardInBundle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9EA08D183958B8007A4AC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA9EA08F183958B8007A4AC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		BA9EA0B4183958B8007A4AC7 /* StoryboardInBundleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardInBundleTests-Info.plist"; sourceTree = "<group>"; };
 		BA9EA0B6183958B8007A4AC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA9EA0B8183958B8007A4AC7 /* StoryboardInBundleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardInBundleTests.m; sourceTree = "<group>"; };
-		BA9EA0C618395ACC007A4AC7 /* bundlefilename.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = bundlefilename.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 		BA9EA093183958B8007A4AC7 /* StoryboardInBundle */ = {
 			isa = PBXGroup;
 			children = (
-				BA9EA0C618395ACC007A4AC7 /* bundlefilename.bundle */,
+				BA82388A183AC91C0068C804 /* bundlefilename.bundle */,
 				BA9EA09F183958B8007A4AC7 /* Main.storyboard */,
 				BA9EA0A2183958B8007A4AC7 /* PGViewController.h */,
 				BA9EA0A3183958B8007A4AC7 /* PGViewController.m */,
@@ -232,8 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA82388B183AC91C0068C804 /* bundlefilename.bundle in Resources */,
 				BA9EA0A6183958B8007A4AC7 /* Images.xcassets in Resources */,
-				BA9EA0C718395ACC007A4AC7 /* bundlefilename.bundle in Resources */,
 				BA9EA098183958B8007A4AC7 /* InfoPlist.strings in Resources */,
 				BA9EA0A1183958B8007A4AC7 /* Main.storyboard in Resources */,
 			);
